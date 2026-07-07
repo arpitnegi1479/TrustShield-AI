@@ -44,6 +44,9 @@ TrustShield AI simulates a collaborative AI system where specialized agents cont
 
 Each agent analyzes different aspects of a customer or transaction before generating an explainable recommendation.
 
+<img width="1513" height="833" alt="image" src="https://github.com/user-attachments/assets/acc327b2-2694-4fff-8d73-6a85a37c332c" />
+
+
 ---
 
 ## 🏗️ Project Architecture
