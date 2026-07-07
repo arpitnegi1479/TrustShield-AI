@@ -9,6 +9,8 @@ TrustShield AI is an enterprise-grade banking intelligence platform that leverag
 Designed for modern financial institutions, the platform combines customer intelligence, fraud investigation, relationship analysis, and an AI Copilot into one unified interface, enabling analysts to make faster, smarter, and more transparent decisions.
 
 ---
+<img width="1523" height="852" alt="image" src="https://github.com/user-attachments/assets/c1c18e86-1867-4958-876c-4d568cbc554b" />
+
 
 ## 🚀 Key Features
 
