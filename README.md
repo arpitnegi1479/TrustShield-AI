@@ -1,102 +1,191 @@
-# TrustShield AI
+# 🛡️ TrustShield AI
 
-Real-Time Trust Intelligence Platform
+> AI-Powered Multi-Agent Banking Intelligence Platform for Fraud Detection, Trust Scoring & Explainable Decision Making
 
-## Overview
+## 📌 Overview
 
-TrustShield AI is a production-grade fintech hackathon prototype that provides real-time trust scoring for financial transactions. It analyzes user behavior, network connections, and transaction patterns to determine trust levels and recommend actions like approval, verification, or flagging.
+TrustShield AI is an enterprise-grade banking intelligence platform that leverages a multi-agent AI architecture to detect fraudulent activities, evaluate customer trust, and provide explainable recommendations for banking analysts.
 
-The platform features:
-- Multi-agent AI analysis (Intent Prediction, Network Risk, Transaction Anomaly, etc.)
-- Interactive collusion network visualization
-- Loan simulation with parameter adjustment
-- Explainable AI with factor breakdowns and improvement suggestions
-- Dark theme UI with animated components
+Designed for modern financial institutions, the platform combines customer intelligence, fraud investigation, relationship analysis, and an AI Copilot into one unified interface, enabling analysts to make faster, smarter, and more transparent decisions.
 
-## Architecture
+---
+
+## 🚀 Key Features
+
+- 🏦 Intelligence Center Dashboard
+- 👤 Customer Intelligence
+- 🔍 Customer Profile & Trust Analysis
+- 🚨 Fraud Investigation Workspace
+- 📊 Investigation Reports
+- 🤖 AI Copilot
+- 🏢 Enterprise Control Center
+- 📈 Reports Dashboard
+- 🛡️ Zero Trust Inspired Security Model
+- 🌐 Relationship Intelligence Network
+- 📉 Dynamic Trust Scoring
+- 💡 Explainable AI Recommendations
+
+---
+
+## 🧠 Multi-Agent Architecture
+
+TrustShield AI simulates a collaborative AI system where specialized agents contribute to the final trust assessment:
+
+- Identity Verification Agent
+- Fraud Detection Agent
+- Transaction Risk Agent
+- Relationship Intelligence Agent
+- Behavioral Analysis Agent
+- Trust Scoring Agent
+- Explainability Agent
+- AI Copilot
+
+Each agent analyzes different aspects of a customer or transaction before generating an explainable recommendation.
+
+---
+
+## 🏗️ Project Architecture
+
+```
+Landing Page
+      │
+      ▼
+Intelligence Center
+      │
+ ┌────┼─────┐
+ ▼    ▼     ▼
+Customer   Fraud   AI Copilot
+Intelligence Investigation
+      │
+      ▼
+Customer Profile
+      │
+      ▼
+Investigation Report
+      │
+      ▼
+Enterprise Control Center
+```
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+
+### Backend
+- Node.js
+- Express.js
+- TypeScript
+
+### AI & Design
+- Google Stitch
+- Antigravity AI
+- Multi-Agent Architecture
+
+### Development
+- Git
+- GitHub
+- Visual Studio Code
+
+---
+
+## 🎨 Design Workflow
+
+The UI was first designed using **Google Stitch**, creating a premium enterprise banking experience. Using **Antigravity AI**, the Stitch designs were translated into a React application while integrating seamlessly with the existing backend APIs.
+
+---
+
+## 🔒 Security Features
+
+- Zero Trust-inspired workflow
+- Dynamic Trust Score
+- Fraud Risk Analysis
+- Relationship Intelligence
+- Explainable AI recommendations
+- Customer investigation workflow
+
+---
+
+## 📂 Project Structure
 
 ```
 trustshield-ai/
-├── backend/ (Node.js + Express + TypeScript)
-│   ├── agents/ (7 AI agents for analysis)
-│   ├── services/ (Trust scoring and decision engine)
-│   ├── routes/ (API endpoints)
-│   └── data/ (Mock user data)
-└── frontend/ (React + Vite + TypeScript)
-    ├── components/ (UI components)
-    ├── context/ (Global state management)
-    ├── hooks/ (API integration)
-    └── lib/ (Axios setup)
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   └── ...
+│
+├── backend/
+│   ├── src/
+│   ├── agents/
+│   ├── routes/
+│   └── ...
+│
+├── README.md
+└── prd.md
 ```
 
-## Tech Stack
+---
 
-| Layer     | Technology                                      |
-|-----------|-------------------------------------------------|
-| Frontend  | React 18 + Vite + TailwindCSS + Recharts        |
-| Backend   | Node.js 20 + Express 5                          |
-| Language  | TypeScript (strict mode) throughout             |
-| Charts    | Recharts (gauge, bar, line)                     |
-| Graph     | react-force-graph-2d (collusion network)        |
-| Icons     | lucide-react                                    |
-| Styling   | TailwindCSS + CSS variables (dark theme)        |
-| State     | React Context + useReducer (no Redux)           |
-| HTTP      | Axios (frontend) + express-validator (backend)  |
-| Fake Data | Custom seed file — no third-party faker libs    |
+## ⚙️ Installation
 
-## Setup Instructions
+### Clone Repository
 
-1. **Backend Setup:**
-   ```bash
-   cd backend
-   npm install
-   npm run dev
-   ```
-   Server runs on http://localhost:3001
+```bash
+git clone https://github.com/YOUR_USERNAME/TrustShield-AI.git
+cd TrustShield-AI
+```
 
-2. **Frontend Setup:**
-   ```bash
-   cd frontend
-   npm install
-   npm run dev
-   ```
-   App runs on http://localhost:5173
+### Frontend
 
-3. Open http://localhost:5173 in your browser
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-## Demo Users
+### Backend
 
-| ID      | Name          | Risk Profile | Use Case    | Description                                      |
-|---------|---------------|--------------|-------------|--------------------------------------------------|
-| USR-001 | Priya Sharma  | Low          | Payment     | Consistent device, Mumbai, normal hours          |
-| USR-002 | Rahul Mehta   | Medium       | Loan        | Mixed devices, occasional off-hours logins       |
-| USR-003 | Anika Patel   | High         | Transaction | Multiple locations, large spikes                 |
-| USR-004 | Dev Kapoor    | Low          | API Monitor | Clean API usage, stable patterns                 |
-| USR-005 | Sana Qureshi  | High         | Transaction | New account, unusual network links               |
-| USR-006 | Arjun Nair    | Medium       | Loan        | Mid-credit profile, moderate EMI ratio           |
+```bash
+cd backend
+npm install
+npm run dev
+```
 
-## Demo Flow
+---
 
-1. Load sample user Anika Patel (High Risk)
-2. Analyze → See FLAG decision with low score
-3. Switch to Priya Sharma (Low Risk) → APPROVE
-4. Try Rahul Mehta (Loan) → Simulation panel appears
-5. Adjust EMI slider → Recalculate to see score changes
+## 🎥 Demo
 
-## Features
+A complete demonstration video showcasing the platform and its features is included with the hackathon submission.
 
-- **Real-time Analysis:** 800ms response time simulation
-- **Interactive Graph:** Force-directed network visualization
-- **Loan Simulation:** Adjust parameters and see trust impact
-- **Explainable AI:** Detailed factor breakdowns and reasons
-- **Responsive Design:** Works on desktop and mobile
-- **Dark Theme:** Professional fintech aesthetic
+---
 
-## API Endpoints
+## 📈 Future Enhancements
 
-- `POST /api/analyze` - Analyze trust for a transaction
-- `POST /api/simulate` - Simulate trust with modified parameters
+- Real banking API integration
+- Live LLM-powered AI Copilot
+- Production-ready MCP Server
+- Real-time transaction monitoring
+- Authentication & role-based access control
+- Cloud deployment
+- Advanced analytics dashboard
 
-## License
+---
 
-This is a hackathon prototype. Use for educational purposes only.
+## 👨‍💻 Developed For
+
+Google AI Hackathon 2026
+
+Built using AI-assisted development with Google Stitch and Antigravity AI.
+
+---
+
+## 📄 License
+
+This project was developed for educational and hackathon purposes.
