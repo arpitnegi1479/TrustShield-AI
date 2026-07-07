@@ -1,0 +1,20 @@
+{
+  "name": "trustshield-backend",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "express": "^5.0.0",
+    "express-validator": "^7.0.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0",
+    "@types/express": "^5.0.0",
+    "@types/cors": "^2.8.17",
+    "@types/node": "^20.0.0"
+  }
+}
