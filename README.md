@@ -103,6 +103,9 @@ Enterprise Control Center
 
 The UI was first designed using **Google Stitch**, creating a premium enterprise banking experience. Using **Antigravity AI**, the Stitch designs were translated into a React application while integrating seamlessly with the existing backend APIs.
 
+<img width="1542" height="844" alt="image" src="https://github.com/user-attachments/assets/439f9767-6893-42a7-b5c1-8a6733fd1016" />
+
+
 ---
 
 ## 🔒 Security Features
